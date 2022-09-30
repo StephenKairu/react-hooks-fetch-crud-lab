@@ -6,6 +6,10 @@ import QuestionList from "./QuestionList";
 function App() {
   const [page, setPage] = useState("List");
 
+  // React.useEffect(() => {
+  //   fetchQuestions()
+  // }, [])
+  
   return (
     <main>
       <AdminNavBar onChangePage={setPage} />
